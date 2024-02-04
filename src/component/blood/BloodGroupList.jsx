@@ -6,7 +6,7 @@ function BloodGroupList() {
     <div className="grid grid-cols-2 lg:grid-cols-4 gap-5 py-20">
       {groups.map((group, index) => (
         <Link to={`/blood/${group.title}`} key={index}>
-          <div className="bg-slate-600 text-center rounded py-16 shadow">
+          <div className="bg-secondary text-center rounded py-16 shadow">
             <h1 className="text-2xl text-light">{group.title}</h1>
           </div>
         </Link>
